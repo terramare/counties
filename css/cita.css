@@ -1,0 +1,46 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", "sans-serif";
+    font-size: 14px;
+}
+
+svg {
+    border: medium;
+    border-radius: 10px;
+}
+
+path {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: .5px;
+}
+
+svg text {
+    pointer-events: none;
+}
+
+path:hover {
+    fill: whitesmoke;
+}
+
+.county-label {
+    fill: #777;
+/*     fill-opacity: .8; */
+    font-weight: 300;
+    text-anchor: middle;
+}
+
+.info-panel {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", "sans-serif";
+    width: auto;
+    margin-top: 10px;
+    background: whitesmoke;
+    border-style: groove;
+    border-width: thin;
+    border-radius: 10px;
+}
+
+.info-panel > h3 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", "sans-serif";
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
